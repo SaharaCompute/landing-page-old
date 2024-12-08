@@ -6,10 +6,28 @@ import '@/styles/globals.css'
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png+xml" href="/favicon.png" />
+
+		<meta name="description" content="SaharaCompute.com provides fully managed IT solutions, hosting, and cloud services to help businesses thrive in the digital era." />
+		<meta name="keywords" content="Managed IT Solutions, Hosting, Cloud Services, SaharaCompute" />
+		<meta name="author" content="SaharaCompute" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Coming soon</title>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:title" content="SaharaCompute - Managed IT Solutions & Hosting" />
+		<meta property="og:description" content="SaharaCompute.com offers a range of fully managed IT solutions, hosting, and cloud services for businesses of all sizes." />
+		<meta property="og:image" content="/favicon.png" />
+		<meta property="og:url" content="https://saharacompute.com" />
+		<meta property="og:type" content="website" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="SaharaCompute - Managed IT Solutions & Hosting" />
+		<meta name="twitter:description" content="SaharaCompute.com provides fully managed IT solutions, hosting, and cloud services to help businesses succeed in the digital age." />
+		<meta name="twitter:image" content="/favicon.png" />
+
+		<title>SaharaCompute - Managed IT Solutions & Hosting</title>
 	</head>
 	<body>
 		<slot />
@@ -20,7 +38,11 @@ import '@/styles/globals.css'
 	html,
 	body {
 		margin: 0;
+		padding: 0;
 		width: 100%;
 		height: 100%;
+		font-family: sans-serif;
+		background-color: #fafafa;
+		color: #333;
 	}
 </style>
